@@ -49,7 +49,10 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-mysql',
-    url: 'mysql://root:mathakaNABN@localhost:3306/hotel_reservation',
+    url: 'mysql://root:mathakaNABN@127.0.0.1:3306/hotel_reservation',
+    host:'127.0.0.1',
+    port:3306,
+
 
   },
 
